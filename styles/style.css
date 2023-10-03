@@ -1,0 +1,33 @@
+p{
+    color: cyan;
+}
+html{
+    background-color: orange;
+    font-family: "Open Sans";
+}
+body{
+    margin: 20px auto;
+    background-color: cornflowerblue;
+    width: 1000px;
+    border: 5px solid black;
+    padding: 0 20px 20px 20px;
+}
+a:hover{
+    color: firebrick;
+}
+p::selection,
+h1::selection{
+    color: blueviolet;
+    background-color: red;
+}
+img{
+    display: block;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+}
+button{
+    display: block;
+    margin: 0 auto;
+}
